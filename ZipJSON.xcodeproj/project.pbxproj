@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC6E5B615EB4EF000B0A8B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6E5B515EB4EF000B0A8B4 /* UIKit.framework */; };
+		5BC6E5B815EB4EF000B0A8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6E5B715EB4EF000B0A8B4 /* Foundation.framework */; };
+		5BC6E5BA15EB4EF000B0A8B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6E5B915EB4EF000B0A8B4 /* CoreGraphics.framework */; };
+		5BC6E5C015EB4EF000B0A8B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6E5BE15EB4EF000B0A8B4 /* InfoPlist.strings */; };
+		5BC6E5C215EB4EF000B0A8B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6E5C115EB4EF000B0A8B4 /* main.m */; };
+		5BC6E5C615EB4EF000B0A8B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6E5C515EB4EF000B0A8B4 /* AppDelegate.m */; };
+		5BC6E5CE15EB4F1000B0A8B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6E5CD15EB4F1000B0A8B4 /* MainViewController.m */; };
+		5BC6E5D015EB4F2200B0A8B4 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6E5CF15EB4F2200B0A8B4 /* libz.1.2.5.dylib */; };
+		5BC6E5D315EB4F3000B0A8B4 /* LFCGzipUtillity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6E5D215EB4F3000B0A8B4 /* LFCGzipUtillity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BC6E5B115EB4EF000B0A8B4 /* ZipJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC6E5B515EB4EF000B0A8B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BC6E5B715EB4EF000B0A8B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BC6E5B915EB4EF000B0A8B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BC6E5BD15EB4EF000B0A8B4 /* ZipJSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZipJSON-Info.plist"; sourceTree = "<group>"; };
+		5BC6E5BF15EB4EF000B0A8B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC6E5C115EB4EF000B0A8B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC6E5C315EB4EF000B0A8B4 /* ZipJSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZipJSON-Prefix.pch"; sourceTree = "<group>"; };
+		5BC6E5C415EB4EF000B0A8B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BC6E5C515EB4EF000B0A8B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BC6E5CC15EB4F1000B0A8B4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5BC6E5CD15EB4F1000B0A8B4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5BC6E5CF15EB4F2200B0A8B4 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		5BC6E5D115EB4F3000B0A8B4 /* LFCGzipUtillity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtillity.h; sourceTree = "<group>"; };
+		5BC6E5D215EB4F3000B0A8B4 /* LFCGzipUtillity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtillity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC6E5AE15EB4EF000B0A8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC6E5D015EB4F2200B0A8B4 /* libz.1.2.5.dylib in Frameworks */,
+				5BC6E5B615EB4EF000B0A8B4 /* UIKit.framework in Frameworks */,
+				5BC6E5B815EB4EF000B0A8B4 /* Foundation.framework in Frameworks */,
+				5BC6E5BA15EB4EF000B0A8B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC6E5A615EB4EF000B0A8B4 = {
+			isa = PBXGroup;
+			children = (
+				5BC6E5CF15EB4F2200B0A8B4 /* libz.1.2.5.dylib */,
+				5BC6E5BB15EB4EF000B0A8B4 /* ZipJSON */,
+				5BC6E5B415EB4EF000B0A8B4 /* Frameworks */,
+				5BC6E5B215EB4EF000B0A8B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC6E5B215EB4EF000B0A8B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6E5B115EB4EF000B0A8B4 /* ZipJSON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC6E5B415EB4EF000B0A8B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6E5B515EB4EF000B0A8B4 /* UIKit.framework */,
+				5BC6E5B715EB4EF000B0A8B4 /* Foundation.framework */,
+				5BC6E5B915EB4EF000B0A8B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BC6E5BB15EB4EF000B0A8B4 /* ZipJSON */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6E5C415EB4EF000B0A8B4 /* AppDelegate.h */,
+				5BC6E5C515EB4EF000B0A8B4 /* AppDelegate.m */,
+				5BC6E5CC15EB4F1000B0A8B4 /* MainViewController.h */,
+				5BC6E5CD15EB4F1000B0A8B4 /* MainViewController.m */,
+				5BC6E5D115EB4F3000B0A8B4 /* LFCGzipUtillity.h */,
+				5BC6E5D215EB4F3000B0A8B4 /* LFCGzipUtillity.m */,
+				5BC6E5BC15EB4EF000B0A8B4 /* Supporting Files */,
+			);
+			path = ZipJSON;
+			sourceTree = "<group>";
+		};
+		5BC6E5BC15EB4EF000B0A8B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6E5BD15EB4EF000B0A8B4 /* ZipJSON-Info.plist */,
+				5BC6E5BE15EB4EF000B0A8B4 /* InfoPlist.strings */,
+				5BC6E5C115EB4EF000B0A8B4 /* main.m */,
+				5BC6E5C315EB4EF000B0A8B4 /* ZipJSON-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC6E5B015EB4EF000B0A8B4 /* ZipJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC6E5C915EB4EF000B0A8B4 /* Build configuration list for PBXNativeTarget "ZipJSON" */;
+			buildPhases = (
+				5BC6E5AD15EB4EF000B0A8B4 /* Sources */,
+				5BC6E5AE15EB4EF000B0A8B4 /* Frameworks */,
+				5BC6E5AF15EB4EF000B0A8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZipJSON;
+			productName = ZipJSON;
+			productReference = 5BC6E5B115EB4EF000B0A8B4 /* ZipJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC6E5A815EB4EF000B0A8B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5BC6E5AB15EB4EF000B0A8B4 /* Build configuration list for PBXProject "ZipJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BC6E5A615EB4EF000B0A8B4;
+			productRefGroup = 5BC6E5B215EB4EF000B0A8B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC6E5B015EB4EF000B0A8B4 /* ZipJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC6E5AF15EB4EF000B0A8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC6E5C015EB4EF000B0A8B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC6E5AD15EB4EF000B0A8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC6E5C215EB4EF000B0A8B4 /* main.m in Sources */,
+				5BC6E5C615EB4EF000B0A8B4 /* AppDelegate.m in Sources */,
+				5BC6E5CE15EB4F1000B0A8B4 /* MainViewController.m in Sources */,
+				5BC6E5D315EB4F3000B0A8B4 /* LFCGzipUtillity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BC6E5BE15EB4EF000B0A8B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC6E5BF15EB4EF000B0A8B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC6E5C715EB4EF000B0A8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BC6E5C815EB4EF000B0A8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC6E5CA15EB4EF000B0A8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZipJSON/ZipJSON-Prefix.pch";
+				INFOPLIST_FILE = "ZipJSON/ZipJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BC6E5CB15EB4EF000B0A8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZipJSON/ZipJSON-Prefix.pch";
+				INFOPLIST_FILE = "ZipJSON/ZipJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC6E5AB15EB4EF000B0A8B4 /* Build configuration list for PBXProject "ZipJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC6E5C715EB4EF000B0A8B4 /* Debug */,
+				5BC6E5C815EB4EF000B0A8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC6E5C915EB4EF000B0A8B4 /* Build configuration list for PBXNativeTarget "ZipJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC6E5CA15EB4EF000B0A8B4 /* Debug */,
+				5BC6E5CB15EB4EF000B0A8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC6E5A815EB4EF000B0A8B4 /* Project object */;
+}
